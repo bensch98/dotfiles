@@ -12,7 +12,7 @@ set hlsearch
 set ruler
 highlight Comment ctermfg=green
 set backspace=indent
-set clipboard+=unnamed " use system clipboard
+set clipboard=unnamed " use system clipboard
 
 " ---
 " statusline config
