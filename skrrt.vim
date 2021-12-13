@@ -32,7 +32,7 @@ hi Question term=standout ctermfg=2 gui=bold guifg=SeaGreen
 hi StatusLine term=bold,reverse cterm=bold,reverse gui=bold guifg=White guibg=Black
 hi StatusLineNC term=reverse cterm=reverse gui=bold guifg=PeachPuff guibg=Gray45
 hi VertSplit term=reverse cterm=reverse gui=bold guifg=White guibg=Gray45
-hi Title term=bold ctermfg=5 gui=bold guifg=DeepPink3
+hi Title term=bold ctermfg=213 gui=bold guifg=DeepPink3
 hi Visual term=reverse cterm=reverse gui=reverse guifg=Grey80 guibg=fg
 hi VisualNOS term=bold,underline cterm=bold,underline gui=bold,underline
 hi WarningMsg term=standout ctermfg=1 gui=bold guifg=Red
@@ -40,7 +40,7 @@ hi WildMenu term=standout ctermfg=0 ctermbg=3 guifg=Black guibg=Yellow
 hi Folded term=standout ctermfg=4 ctermbg=7 guifg=Black guibg=#e3c1a5
 hi FoldColumn term=standout ctermfg=4 ctermbg=7 guifg=DarkBlue guibg=Gray80
 hi DiffAdd term=bold ctermbg=4 guibg=White
-hi DiffChange term=bold ctermbg=5 guibg=#edb5cd
+hi DiffChange term=bold ctermbg=213 guibg=#edb5cd
 hi DiffDelete term=bold cterm=bold ctermfg=4 ctermbg=6 gui=bold guifg=LightBlue guibg=#f6e8d0
 hi DiffText term=reverse cterm=bold ctermbg=1 gui=bold guibg=#ff8060
 hi Cursor guifg=Grey guibg=bg
