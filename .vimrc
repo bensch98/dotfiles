@@ -1,7 +1,8 @@
 " activate syntax hl
 syntax on
 " color of syntax hl
-colo peachpuff
+set t_Co=256
+colo skrrt
 
 set tabstop=2
 set shiftwidth=2
@@ -10,9 +11,10 @@ set ai
 set number
 set hlsearch
 set ruler
-highlight Comment ctermfg=green
+set cursorline
 set backspace=indent
 set clipboard=unnamed " use system clipboard
+vnoremap <C-c> "*y
 
 " ---
 " statusline config
