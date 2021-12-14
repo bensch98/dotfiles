@@ -33,7 +33,7 @@ hi StatusLine term=bold,reverse cterm=bold,reverse gui=bold guifg=White guibg=Bl
 hi StatusLineNC term=reverse cterm=reverse gui=bold guifg=PeachPuff guibg=Gray45
 hi VertSplit term=reverse cterm=reverse gui=bold guifg=White guibg=Gray45
 hi Title term=bold ctermfg=213 gui=bold guifg=DeepPink3
-hi Visual term=reverse cterm=reverse gui=reverse guifg=Grey80 guibg=fg
+hi Visual term=reverse cterm=reverse ctermfg=15 ctermbg=0 gui=reverse guifg=Grey80 guibg=fg
 hi VisualNOS term=bold,underline cterm=bold,underline gui=bold,underline
 hi WarningMsg term=standout ctermfg=1 gui=bold guifg=Red
 hi WildMenu term=standout ctermfg=0 ctermbg=3 guifg=Black guibg=Yellow
