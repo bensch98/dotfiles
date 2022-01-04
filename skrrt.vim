@@ -1,5 +1,5 @@
 " Vim color file
-" Maintainer: Benedikt Scheffler (bensch98) <scheffler.benedikt@gmail>
+" Maintainer: Benedikt Scheffler (bensch98) <scheffler.benedikt@gmail.com>
 " Last Change: 2022-01-04
 " URL: https://github.com/bensch98/configuration/blob/main/skrrt.vim
 
