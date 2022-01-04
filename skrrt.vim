@@ -1,12 +1,10 @@
 " Vim color file
-" Maintainer: David Ne\v{c}as (Yeti) <yeti@physics.muni.cz>
-" Last Change: 2003-04-23
-" URL: http://trific.ath.cx/Ftp/vim/colors/peachpuff.vim
+" Maintainer: Benedikt Scheffler (bensch98) <scheffler.benedikt@gmail>
+" Last Change: 2022-01-04
+" URL: https://github.com/bensch98/configuration/blob/main/skrrt.vim
 
-" This color scheme uses a peachpuff background (what you've expected when it's
-" called peachpuff?).
+" This color scheme is based on peachpuff background with some adjustments
 "
-" Note: Only GUI colors differ from default, on terminal it's just `light'.
 
 " First remove all existing highlighting.
 set background=light
@@ -24,7 +22,7 @@ hi NonText term=bold cterm=bold ctermfg=128 gui=bold guifg=Blue
 hi Directory term=bold ctermfg=4 guifg=Blue
 hi ErrorMsg term=standout cterm=bold ctermfg=7 ctermbg=1 gui=bold guifg=White guibg=Red
 hi IncSearch term=reverse cterm=reverse gui=reverse
-hi Search term=reverse ctermbg=3 guibg=Gold2
+hi Search term=reverse ctermfg=0 ctermbg=3 guibg=Gold2
 hi MoreMsg term=bold ctermfg=2 gui=bold guifg=SeaGreen
 hi ModeMsg term=bold cterm=bold gui=bold
 hi LineNr term=underline ctermfg=3 guifg=Red3
@@ -55,8 +53,7 @@ hi Special term=bold ctermfg=213 guifg=SlateBlue
 hi Identifier term=underline ctermfg=6 guifg=DarkCyan
 hi Statement term=bold ctermfg=3 gui=bold guifg=Brown
 hi PreProc term=underline ctermfg=213 guifg=Magenta3
-hi Type term=underline ctermfg=2 gui=bold guifg=SeaGreen
+hi Type term=underline ctermfg=14 gui=bold guifg=SeaGreen
 hi Ignore cterm=bold ctermfg=7 guifg=bg
 hi Error term=reverse cterm=bold ctermfg=7 ctermbg=1 gui=bold guifg=White guibg=Red
 hi Todo term=standout ctermfg=0 ctermbg=3 guifg=Blue guibg=Yellow
-
