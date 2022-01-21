@@ -113,5 +113,10 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-export PATH=/usr/local/go/bin:$PATH
+export PATH=/usr/local/go/bin:$HOME/.local/bin:$PATH
 
+# aliases
+alias xclip='xclip -selection clip'
+alias feh="feh -B black -g 1920x1080"
+
+eval $(thefuck --alias)

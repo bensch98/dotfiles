@@ -1,17 +1,26 @@
 # Configuration - Dev Environment
 
-File locations:
-- bashrc: ~/
-- condarc: ~/
-- robbyrussel.zsh-theme: ~/.oh-my-zsh/themes/
-- .tmux.conf: ~/
-- .vimrc: ~/
-- .zshrc: ~/
-- skrrt.vim: /usr/share/vim/vim81/colors/
+Files:
+- ~/bashrc
+- ~/condarc
+- ~/oh-my-zsh/themes/robbyrussel.zsh-theme
+- ~/.tmux.conf
+- ~/.vimrc
+- ~/.zshrc
+- /usr/share/vim/vim81/colors/skrrt.vim
+- ~/.Xresources 
 
-Gnome Terminal Settings:
-- foreground color: #fff
-- background color: #262626
+Make XTerm default terminal emulator:
+```bash
+sudo update-alternatives --config x-terminal-emulator
+```
 
+Packages:
+```bash
+# image viewer
+sudo apt-get update feh
 
-![Gnome Terminal Preferences](/img/gnome-terminal-preferences.png)
+# auto correction
+sudo apt-get install python3-dev python3-pip python3-setuptools
+pip3 install thefuck --user
+```
