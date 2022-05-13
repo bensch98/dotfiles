@@ -16,3 +16,9 @@ set backspace=indent
 set clipboard=unnamed " use system clipboard
 vnoremap <C-c> "*y
 inoremap <C-c> <Esc>
+
+" syntax highlighting for assembly
+autocmd BufNew,BufRead *.asm set ft=nasm
+
+" use tabs in Makefiles
+au BufNewFile,BufRead,BufReadPost Makefile set noexpandtab
