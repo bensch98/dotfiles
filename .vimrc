@@ -1,5 +1,6 @@
 " activate syntax hl
 syntax on
+
 " color of syntax hl
 set t_Co=256
 colo skrrt
@@ -17,8 +18,12 @@ set clipboard=unnamed " use system clipboard
 vnoremap <C-c> "*y
 inoremap <C-c> <Esc>
 
-" syntax highlighting for assembly
+" *** file specific settings ***
+" .asm 
 autocmd BufNew,BufRead *.asm set ft=nasm
 
-" use tabs in Makefiles
+" .lst
+autocmd BufNew,BufRead *.lst set syntax=off
+
+" Makefile
 au BufNewFile,BufRead,BufReadPost Makefile set noexpandtab
