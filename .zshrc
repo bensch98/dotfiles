@@ -113,10 +113,19 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-export PATH=/usr/local/go/bin:$HOME/.local/bin:$PATH
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin:/usr/local/go/bin
 
 # aliases
 alias xclip='xclip -selection clip'
 alias feh="feh -B black -g 1920x1080"
+alias clang-format="clang-format-15"
+alias clang-tidy="clang-tidy-15"
 
 eval $(thefuck --alias)
+
+# --- k8s ---
+# autocompletion
+source <(kubectl completion zsh)
+alias k='kubectl'
+alias wk='watch kubectl'
