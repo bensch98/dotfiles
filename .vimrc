@@ -27,3 +27,6 @@ autocmd BufNew,BufRead *.lst set syntax=off
 
 " Makefile
 au BufNewFile,BufRead,BufReadPost Makefile set noexpandtab
+
+" Go
+au BufNewFile,BufRead,BufReadPost *.go set noexpandtab
