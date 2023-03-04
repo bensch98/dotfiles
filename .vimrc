@@ -1,12 +1,12 @@
 " install vim plugin manager: vim-plug 
-if empty(glob('~/.vim/autoload/plug.vim'))
-  silent execute '!curl -fLo ~/.vim/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
-endif
+"if empty(glob('~/.vim/autoload/plug.vim'))
+"  silent execute '!curl -fLo ~/.vim/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+"  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+"endif
 
 " install plugins
-call plug#begin()
-call plug#end()
+"call plug#begin()
+"call plug#end()
 
 " activate syntax hl
 syntax on
@@ -22,6 +22,7 @@ set ai
 set number
 set hlsearch
 set ruler
+set rulerformat=%18(%=\%l,%c\|0x%04B\|%p%%%)
 set cursorline
 set backspace=indent
 set clipboard=unnamed " use system clipboard
