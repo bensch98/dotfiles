@@ -3,7 +3,7 @@ XTerm.termName: xterm-256color
 
 ! font / font size
 XTerm*faceName: DejaVu Sans Mono
-XTerm*faceSize: 11
+XTerm*faceSize: 8
 
 ! ensure locale is set up for UTF-8
 XTerm.vt100.locale: true
@@ -16,6 +16,9 @@ XTerm*cursorBlink: true
 
 XTerm*Background: #222222
 XTerm*Foreground: #ffffff
+
+! colors
+XTerm*color4: white
 
 ! copy selection immediately to system clipboard
 XTerm*selectToClipboard: true
