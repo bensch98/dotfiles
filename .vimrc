@@ -1,13 +1,3 @@
-" install vim plugin manager: vim-plug 
-"if empty(glob('~/.vim/autoload/plug.vim'))
-"  silent execute '!curl -fLo ~/.vim/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-"  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
-"endif
-
-" install plugins
-"call plug#begin()
-"call plug#end()
-
 " activate syntax hl
 syntax on
 
