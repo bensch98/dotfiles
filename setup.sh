@@ -12,6 +12,12 @@ cp .tmux.conf ~
 cp .Xresources ~
 xrdb ~/.Xresources
 
+# install custom tools
+# port scans
+sudo apt-get install nmap arp-scan
+# file meta data
+sudo apt-get install libimage-exiftool-perl poppler-utils
+
 echo "Setup finished:
 [1/4] - Installed packages: tmux vi feh xterm
 [2/4] - Setup Vim configuration and Vim color scheme
