@@ -19,10 +19,11 @@ sudo apt-get install nmap arp-scan
 sudo apt-get install libimage-exiftool-perl poppler-utils
 
 echo "Setup finished:
-[1/4] - Installed packages: tmux vi feh xterm
-[2/4] - Setup Vim configuration and Vim color scheme
-[3/3] - Setup tmux with .tmux.conf
-[4/4] - Setup XTerm configuration
+[1/5] - Installed packages: tmux vi feh xterm
+[2/5] - Setup Vim configuration and Vim color scheme
+[3/5] - Setup tmux with .tmux.conf
+[4/5] - Setup XTerm configuration
+[5/5] - Setup custom packages
 
 Now set the default terminal emulator via:
 # sudo update-alternatives --config x-terminal-emulator
