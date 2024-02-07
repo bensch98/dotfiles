@@ -129,3 +129,6 @@ eval $(thefuck --alias)
 source <(kubectl completion zsh)
 alias k='kubectl'
 alias wk='watch kubectl'
+
+# --- vagrant ---
+alias vagrda='for id in $(vagrant global-status | grep running | awk "{print \$1}"); do vagrant destroy $id --force; done'
