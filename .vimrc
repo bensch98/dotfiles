@@ -32,5 +32,8 @@ au BufNewFile,BufRead,BufReadPost Makefile set noexpandtab
 " Go
 au BufNewFile,BufRead,BufReadPost *.go set noexpandtab
 
+" Python
+au BufNewFile,BufRead,BufReadPost *.py setlocal tabstop=4 shiftwidth=4 expandtab
+
 " Rust
 au BufNewFile,BufRead,BufReadPost *.rs setlocal tabstop=4 shiftwidth=4 expandtab
