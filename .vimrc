@@ -19,6 +19,11 @@ set clipboard=unnamed " use system clipboard
 vnoremap <C-c> "*y
 inoremap <C-c> <Esc>
 
+" folding
+set foldmethod=indent " set folding logic
+set nofoldenable " unfold all when opening file
+set foldlevelstart=99
+
 " *** file specific settings ***
 " .asm 
 autocmd BufNew,BufRead *.asm set ft=nasm
@@ -37,3 +42,6 @@ au BufNewFile,BufRead,BufReadPost *.py setlocal tabstop=4 shiftwidth=4 expandtab
 
 " Rust
 au BufNewFile,BufRead,BufReadPost *.rs setlocal tabstop=4 shiftwidth=4 expandtab
+
+" Svelte
+au BufNewFile,BufRead,BufReadPost *.svelte set noexpandtab
