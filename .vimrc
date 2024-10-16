@@ -45,3 +45,6 @@ au BufNewFile,BufRead,BufReadPost *.rs setlocal tabstop=4 shiftwidth=4 expandtab
 
 " Svelte
 au BufNewFile,BufRead,BufReadPost *.svelte set noexpandtab
+
+" SQL
+au BufNewFile,BufRead,BufReadPost *.sql setlocal tabstop=4 shiftwidth=4 expandtab
