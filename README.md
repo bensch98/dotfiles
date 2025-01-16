@@ -10,9 +10,12 @@ Files:
 - /usr/share/vim/vim81/colors/skrrt.vim
 - ~/.Xresources 
 
-Make XTerm default terminal emulator:
+Set defaults:
+- Terminal emulator: XTerm
+- Editor: /usr/bin/vim.basic
 ```bash
 sudo update-alternatives --config x-terminal-emulator
+sudo update-alternatives --config editor
 ```
 
 Packages:
