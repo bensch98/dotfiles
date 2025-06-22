@@ -9,7 +9,6 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 set ai
-set number
 set hlsearch
 set ruler
 set rulerformat=%18(%=\%l,%c\|0x%04B\|%p%%%)
@@ -18,6 +17,10 @@ set backspace=indent
 set clipboard=unnamed " use system clipboard
 vnoremap <C-c> "*y
 inoremap <C-c> <Esc>
+
+" relative line numbers for all lines except current line
+set number
+set relativenumber
 
 " folding
 set foldmethod=indent " set folding logic
@@ -45,6 +48,9 @@ au BufNewFile,BufRead,BufReadPost *.rs setlocal tabstop=4 shiftwidth=4 expandtab
 
 " Svelte
 au BufNewFile,BufRead,BufReadPost *.svelte set noexpandtab
+
+" TypeScript
+au BufNewFile,BufRead,BufReadPost *.ts set noexpandtab
 
 " SQL
 au BufNewFile,BufRead,BufReadPost *.sql setlocal tabstop=4 shiftwidth=4 expandtab
